@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .result {
+        margin-bottom: 20px;
+    }
+    p{
+        display: inline;
+        
+    }
+    
+    .result-heading {
+        font-weight: bold;
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px;
+    }
+    .result-details {
+        margin-top: 10px;
+
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Quiz Results</h1>
+    <div class="result">
+        <p class="result-heading">Student's Details:</p>
+        <div class="result-details">
+            <strong>Roll Number:</strong> <p class="rnoResult"> </p> <br>
+            <strong>Name:</strong> <p class="nameResult"> </p><br>
+            <strong>Batch:</strong> <p class="batchResult"> </p><br>
+            <strong>Section:</strong> <p class="sectionResult"> </p>
+        </div>
+    </div>
+    <div class="result">
+        <p class="result-heading">Quiz Topic:</p>
+        <div class="result-details">
+            <p>General Knowledge</p>
+        </div>
+    </div>
+    <div class="result">
+        <p class="result-heading">Obtained Marks:</p>
+        <div class="result-details">
+            <p id="result"></p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

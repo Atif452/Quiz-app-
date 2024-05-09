@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Application</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Quiz Application</h1>
+    <form action="result.html" id="quizForm" >
+        
+        <div class="form-group">
+            <h2>Questions:</h2>
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <input type="radio" id="q1_option1" name="q1"  value="Paris" >
+                <label for="q1_option1">Paris</label>
+                <input type="radio" id="q1_option2" name="q1" value="London">
+                <label for="q1_option2">London</label>
+                <input type="radio" id="q1_option3" name="q1" value="Berlin">
+                <label for="q1_option3">Berlin</label>
+                <input type="radio" id="q1_option4" name="q1" value="Rome">
+                <label for="q1_option4">Rome</label>
+            </div>
+            <div class="question">
+                <p>2. What is the largest planet in our solar system?</p>
+                <input type="radio" id="q2_option1" name="q2" value="Mercury">
+                <label for="q2_option1">Mercury</label>
+                <input type="radio" id="q2_option2" name="q2" value="Venus">
+                <label for="q2_option2">Venus</label>
+                <input type="radio" id="q2_option3" name="q2" value="Earth">
+                <label for="q2_option3">Earth</label>
+                <input type="radio" id="q2_option4" name="q2" value="Jupiter" >
+                <label for="q2_option4">Jupiter</label>
+            </div>
+            <div class="question">
+                <p>3. What is the Capital of Pakistan?</p>
+                <input type="radio" id="q3_option1" name="q3" value="karachi">
+                <label for="q3_option1">karachi</label>
+                <input type="radio" id="q3_option2" name="q3" value="Peshawar">
+                <label for="q3_option2">Peshawar</label>
+                <input type="radio" id="q3_option3" name="q3" value="Isalamabad">
+                <label for="q3_option3">Isalamabad</label>
+                <input type="radio" id="q3_option4" name="q3" value="Lahore" >
+                <label for="q3_option4">Lahore</label>
+            </div>
+            <div class="question">
+                <p>4. Orange is ?</p>
+                <input type="radio" id="q4_option1" name="q4" value="fruit">
+                <label for="q4_option1">fruit</label>
+                <input type="radio" id="q4_option2" name="q4" value="vegetable">
+                <label for="q4_option2">vegetable</label>
+                <input type="radio" id="q4_option3" name="q4" value="car">
+                <label for="q4_option3">car</label>
+                <input type="radio" id="q4_option4" name="q4" value="none of these" >
+                <label for="q4_option4">none of these</label>
+            </div>
+            <div class="question">
+                <p>5. What is the capital of india?</p>
+                <input type="radio" id="q5_option1" name="q5" value="mumbai">
+                <label for="q5_option1">mumbai</label>
+                <input type="radio" id="q5_option2" name="q5" value="rajastan">
+                <label for="q5_option2">rajastan</label>
+                <input type="radio" id="q5_option3" name="q5" value="dehli">
+                <label for="q5_option3">dehli</label>
+                <input type="radio" id="q5_option4" name="q5" value="london" >
+                <label for="q5_option4">london</label>
+            </div>
+            
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit" id="quizSubmit" >
+        </div>
+    </form>
+</div>
+
+
+<script src="quiz.js"></script>
+</body>
+</html>
